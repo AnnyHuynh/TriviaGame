@@ -1,0 +1,96 @@
+
+*{
+  box-sizing: border-box;
+}
+body{
+  background-image: url("../images/Background.jpeg");
+}
+h1{
+  color: greenyellow;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 15px;
+}
+h2{
+  color: yellow;
+  font-weight: bolder;
+  text-align: center;
+}
+span{
+  margin: 20px;
+}
+#mainContainer{
+  background-color: rgba(194, 123, 194, 0.349);
+  color: rgb(255, 205, 185);
+  line-height: 30px;
+  width: 750px;
+  height: 850px;
+  margin-left: 40px;
+  margin-top: 30px;
+  overflow: hidden;
+  float: left;
+  clear: both;
+}
+#start_quiz{
+  text-align: center;
+}
+#start{
+  background-color: rgb(102, 255, 0);
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+  border: solid orange 2px;
+  padding: 20px;
+  width: 200px;  
+}
+#quiz{
+  visibility: hidden;
+  position: relative;
+  top: -80px;
+}
+ol{
+  font-size: 18px;
+  word-spacing: 3px;
+  font-weight: bolder;
+}
+input{
+  margin-left: 20px;
+}
+#button{
+  background-color: rgb(102, 255, 0);
+  color: black;
+  font-weight: bolder;
+  border: solid orange 2px;
+  padding: 8px;
+  width: 100px;
+  margin-left: 300px;
+  
+}
+
+#after_submit{
+  color: yellow;
+  font-size: 20px;
+  text-align: center;
+  visibility: hidden;
+  position: relative;
+  top: -730px;
+}
+h3{
+  font-size: 35px;
+  font-weight: bolder;
+}
+#reset{
+  background-color: rgb(102, 255, 0);
+  color: black;
+  font-weight: bolder;
+  border: solid orange 2px;
+  padding: 8px;
+  width: 100px;  
+}
+
+
+
+
+
+
